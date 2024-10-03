@@ -1,0 +1,42 @@
+:root {
+    /* Colors */
+    --blue-900: #0B0D17;
+    --blue-300: #D0D6F9;
+    --white: #FFFFFF;
+
+    /* Typography */
+    --preset-1: 144px;
+    --preset-2: 100px;
+    --preset-3: 56px;
+    --preset-4: 32px;
+    --preset-5: 28px;
+    --preset-6: 28px;
+    --preset-7: 14px;
+    --preset-8: 16px;
+    --preset-9: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bellefair', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
