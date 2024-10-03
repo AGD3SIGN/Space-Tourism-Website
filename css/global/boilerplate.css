@@ -1,42 +1,59 @@
 :root {
-    /* Colors */
-    --blue-900: #0B0D17;
-    --blue-300: #D0D6F9;
-    --white: #FFFFFF;
+  /* Colors */
+  --blue-900: #0b0d17;
+  --blue-300: #d0d6f9;
+  --white: #ffffff;
 
-    /* Typography */
-    --preset-1: 144px;
-    --preset-2: 100px;
-    --preset-3: 56px;
-    --preset-4: 32px;
-    --preset-5: 28px;
-    --preset-6: 28px;
-    --preset-7: 14px;
-    --preset-8: 16px;
-    --preset-9: 18px;
+  /* Typography */
+  --preset-1: 144px;
+  --preset-2: 100px;
+  --preset-3: 56px;
+  --preset-4: 32px;
+  --preset-5: 28px;
+  --preset-6: 28px;
+  --preset-7: 14px;
+  --preset-8: 16px;
+  --preset-9: 18px;
 }
 
+/* box-sizing */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* Font family */
 body {
-  font-family: 'Bellefair', sans-serif;
-  margin: 0;
+  font-family: "Bellefair", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
 }
 
+/* Reset margins */
+body,
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
   margin: 0;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
